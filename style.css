@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;    
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-left: 19%;
+    margin-right: 19%;    
+}
+
+header{
+    text-align: center;  
+    color: rgb(0, 225, 0);  
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+nav{
+    background-color: #00dd00;
+    padding:1%;
+    text-align: center;
+}
+
+main{
+    margin: 1%;
+    color: white;
+}
+
+section{
+    margin-top: 3%;   
+}
+
+h2{
+    display: inline-block;   
+}
+
+.address{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#medium-battery{
+    background-color: rgb(225, 150, 58); 
+    width: 30%;    
+}
+
+#low-battery{
+    background-color: rgb(222, 39, 39);  
+    width: 12%;    
+}
+
+#full-battery{
+    background-color: rgb(39, 222, 39); 
+    width: 60%;    
+}
+
+.address > div{ /*Dimensioni barre batteria*/
+    padding: 1%;
+    margin: 5px;
+    border-radius: 5px;
+}
